@@ -1,0 +1,10 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Environment variables
+.env
+
+# GCP Credentials
+*.json
