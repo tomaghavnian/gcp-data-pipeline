@@ -3,8 +3,9 @@
 *.tfstate
 *.tfstate.backup
 
-# Environment variables
+# Environment local
 .env
+venv/
 
 # GCP Credentials
 *.json

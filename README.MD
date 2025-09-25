@@ -10,3 +10,8 @@ Versioning : facultatif, mais pratique pour historiser les tfstate
 💡 Astuce : ce bucket ne contiendra que le tfstate, pas d’autres fichiers volumineux.
 3) Makefile, setup gcloud credentials, and then execute terraform commands.
 >>> gcloud auth application-default login
+>>> gcloud config set project prime-hour-472917-d3
+>>> gcloud auth application-default set-quota-project prime-hour-472917-d3
+
+4) Added in terraform the BigQuery table that consumes the weather csv from GCS.
+5) Add python code to download weather csv and upload to GCS.
